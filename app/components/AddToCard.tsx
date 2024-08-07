@@ -3,7 +3,7 @@ import React from 'react'
 
 const AddToCard = () => {
   return (
-    <button onClick={()=>console.log('click')}>
+    <button className='btn btn-primary' onClick={()=>console.log('click')}>
         Add to cart
         </button>
   )
